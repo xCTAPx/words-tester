@@ -1,0 +1,62 @@
+body {
+    background: rgb(208, 221, 161);
+}
+
+.title {
+    text-align: center;
+}
+
+.AddWord {
+    margin-top: 50px;
+    margin-left: 25px;
+}
+
+.test {
+    margin: 50px auto;
+}
+
+.test button {
+    margin: 0 auto;
+    display: block;
+}
+
+.testingWord {
+    text-align: center;
+}
+
+.btns-line {
+    margin: 20px auto;
+    display: -webkit-box;
+    display: flex;
+    width: 240px;
+    -webkit-box-pack: center;
+            justify-content: center;
+}
+
+.allWords {
+    position: absolute;
+    top: 370px;
+    margin-left: 25px;
+}
+
+.allWords > ul {
+    margin-left: -20px;
+}
+
+.allWords__btn {
+    display: block;
+}
+
+.wordInput {
+    height: 35px;
+}
+
+.squareCorners {
+    border-radius: 0;
+    height: 35px;
+    margin-top: -5px;
+}
+
+.clearWords {
+    margin-top: 20px;
+}
